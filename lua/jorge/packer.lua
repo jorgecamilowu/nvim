@@ -8,6 +8,7 @@ return require('packer').startup(function(use)
     use 'theprimeagen/harpoon'
     use 'mbbill/undotree'
     use 'tpope/vim-fugitive'
+    use 'wellle/context.vim'
 
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
