@@ -9,6 +9,8 @@ return require('packer').startup(function(use)
     use 'mbbill/undotree'
     use 'tpope/vim-fugitive'
     use 'wellle/context.vim'
+    use 'windwp/nvim-ts-autotag'
+    use "windwp/nvim-autopairs"
 
     use {
         'nvim-lualine/lualine.nvim',
@@ -45,5 +47,6 @@ return require('packer').startup(function(use)
     }
 
     use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+
 end)
 
