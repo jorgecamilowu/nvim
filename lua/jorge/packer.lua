@@ -58,6 +58,7 @@ return require('packer').startup(function(use)
         'prettier/vim-prettier' ,
         run = 'npm install'
     }
+    use 'jose-elias-alvarez/typescript.nvim'
 
 end)
 
