@@ -14,7 +14,6 @@ return require('packer').startup(function(use)
 
     -- Text helpers
     use 'windwp/nvim-ts-autotag'
-    use "windwp/nvim-autopairs"
     use 'tpope/vim-surround'
 
     -- File navigation
